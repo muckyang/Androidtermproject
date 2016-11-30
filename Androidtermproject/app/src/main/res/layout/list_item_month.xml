@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/date"
+        android:gravity="center"
+        android:text="2016년11월5일"
+        android:textColor="#ffffff"
+
+        android:textSize="16dp"
+        android:layout_width="120dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/title"
+        android:text="TITLE"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        android:textSize="16dp"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/timedur"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="time"
+
+        android:layout_width="85dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/stime"
+        android:text="11:00"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  />
+    <Button
+        android:id="@+id/etime"
+        android:text="23:00"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/place"
+
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="place"
+        android:layout_width="75dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/nowtime"
+        android:text="nowtime"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

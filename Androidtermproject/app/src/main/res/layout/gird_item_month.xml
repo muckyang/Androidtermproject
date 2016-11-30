@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+        <TextView
+            android:id="@+id/gdtv"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+       <TextView
+            android:id="@+id/sctv1"
+           android:textColor="#000000"
+           android:textSize="6dp"
+           android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+    <TextView
+        android:id="@+id/sctv2"
+        android:textColor="#000000"
+        android:textSize="6dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:id="@+id/sctv3"
+        android:textColor="#000000"
+        android:textSize="6dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+</LinearLayout>
