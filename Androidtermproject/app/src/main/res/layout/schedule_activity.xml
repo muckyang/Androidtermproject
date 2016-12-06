@@ -111,16 +111,39 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="horizontal">
+        <TextView
+            android:text="메모"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+        <EditText
+            android:id="@+id/etmemo"
+            android:textSize="20dp"
+            android:textColor="#000000"
+
+            android:lines="3"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:minWidth="10.0dip"
+            android:maxWidth="5.0dip"
+
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="10"
         android:orientation="horizontal">
-        <Button
-            android:id="@+id/memobtn"
-            android:layout_weight="1"
-            android:text="메모보기"
-            android:textSize="20dp"
 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
         <Button
             android:id="@+id/editbtn"
             android:layout_weight="1"

@@ -45,7 +45,6 @@
         android:layout_height="match_parent" />
     <TextView
         android:id="@+id/place"
-
         android:textColor="#ffffff"
         android:gravity="center"
         android:text="place"
@@ -53,6 +52,12 @@
         android:layout_height="match_parent" />
     <TextView
         android:id="@+id/nowtime"
+        android:text="nowtime"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/memo"
         android:text="nowtime"
         android:visibility="gone"
         android:layout_width="match_parent"
